@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4A7992E1-95CB-9487-5B7E-28EE5223D85D" mainViewID="CF2107D3-7B52-B654-BCD8-A5BD9EDC13F9">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:23:16 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BC63E5A-CEE2-7F4E-6806-945468EC99E8" name="Autor">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:27:44 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="8A691610-F4A0-30B7-42C0-886913DAA91B">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:27:48 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="D8DCFFB5-ED04-4C0E-9BF9-3C4A8BA99DA3">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:27:53 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Instituto que trabaja" id="116B76C9-F69F-3500-373C-2E1806F32C63">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:28:09 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Resumen de curriculum" id="576C6D25-7A29-B3F6-15E6-160A148A60F3">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:28:15 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="585B7C69-2F45-6CC1-E1FF-535242C4F079">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:54:30 UTC</createdTime>
+<generatorID>80FD646F-820E-EB57-F67D-3F04CD4F3E80</generatorID>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<referedAttribute>C5C38A08-FD8D-18E0-5932-E004F6CE3466</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AF4BFAF-F8AB-4B96-5612-0D04A07F2D27" name="Autor PK">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:51:10 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8DCFFB5-ED04-4C0E-9BF9-3C4A8BA99DA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

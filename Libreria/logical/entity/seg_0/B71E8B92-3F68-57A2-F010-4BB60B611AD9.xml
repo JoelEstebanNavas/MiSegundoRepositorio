@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B71E8B92-3F68-57A2-F010-4BB60B611AD9" name="Asignatura">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:29:04 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="6F5B365C-B4F7-8605-B168-16A0482FDC5E">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:29:20 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="277E8DA9-ABC6-83A6-6322-6074DDD98D61">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:29:28 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Temas" id="189E7A15-22C3-5CF8-B4BE-2CA17B369E06">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:29:53 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titulo" id="8D94F4C0-3B05-AA91-A1A9-8B6E89D179A0">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:51:28 UTC</createdTime>
+<generatorID>08B4E0F2-65FD-E38E-82F8-F0FF78EA2763</generatorID>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<referedAttribute>C8587543-27D4-EF42-5BF4-E75078D108A7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E84920B-9E34-F73D-6B2D-F151B0EFBA47" name="Asignatura PK">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:54:55 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F5B365C-B4F7-8605-B168-16A0482FDC5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

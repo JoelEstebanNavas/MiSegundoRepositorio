@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="61B543BE-C2AF-3CEA-6999-C729BD5F183E">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:43:31 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<sourcePk>9624E758-1BAD-8EDF-D214-46AA4BA9C65D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>110385BD-D871-89A6-AAF9-5B6A0778FCB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85ED1979-9810-0697-35C7-4148848B2620</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

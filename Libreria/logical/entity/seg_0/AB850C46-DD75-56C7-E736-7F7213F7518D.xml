@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB850C46-DD75-56C7-E736-7F7213F7518D" name="Tarjeta de credito">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:40:11 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Marca" id="4B2591B2-44ED-C9CA-9AA0-D3EB10E2311B">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:40:26 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="C11E6B17-EA46-17C5-EE9F-F49445595085">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:40:29 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de vencimiento" id="2AE3E513-8E35-95AF-3FF0-2D5C0557AE11">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:40:33 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="D4381B17-5E22-CDCA-42CC-A759B2B8E910">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:54:30 UTC</createdTime>
+<generatorID>00E4C72E-660D-5A9B-1436-E3F402879B3B</generatorID>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<referedAttribute>C5C38A08-FD8D-18E0-5932-E004F6CE3466</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="URL" id="E0879F77-467A-DD8D-5A6C-F45B6488F73C">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:55:23 UTC</createdTime>
+<generatorID>C6D7BB6A-7BAA-FDAD-07C4-7C38E4519A18</generatorID>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<referedAttribute>1D67D1A6-E3BA-834C-BA0D-3F2B81966F20</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="603A9512-982A-54CA-A42A-F300C6531702" name="Tarjeta de credito PK">
+<createdBy>jolet</createdBy>
+<createdTime>2024-10-14 14:54:47 UTC</createdTime>
+<ownerDesignName>Libreria</ownerDesignName>
+<engineerTo>
+<item key="EA13DA5C-73B3-61FE-8D78-1175FA121AB8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C11E6B17-EA46-17C5-EE9F-F49445595085</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
